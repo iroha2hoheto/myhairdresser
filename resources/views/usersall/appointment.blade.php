@@ -23,12 +23,18 @@
             </table>
            
             <div class="apo">
-                <div class="time">時間</div>
+                <div class="time">第1希望時間</div>
+                <div class="time">第2希望時間</div>
+                <div class="day">第1希望日</div>
+                <div class="day">第2希望日</div>
+                <div class="day">第3希望日</div>    
                 <div class="stuff">担当</div>
                 <div class="apoinnt">予約</div>
                 <label for='comment' class='mt-2'>メモ</label>
                 <textarea class='form-control' name='comment'></textarea>
+                <a href="{{ route('apoconf') }}">
                 <button type='submit' class='btn'>予約確認</button>      
+                </a>
             </div>   
     </main>
 @endsection

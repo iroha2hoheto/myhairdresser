@@ -21,10 +21,12 @@
                 <input type="password" class="form-control" id="password" name="password" />
               </div>
               <div class="text-right">
-                <button type="submit" class="btn btn-primary">送信</button>
+                <a href="{{ route('users') }}">
+                  <button type="submit" class="btn btn-primary">送信</button>
+                </a>
               </div>
-            </form>
           </div>
-    </nav>
-  </div>
+        </nav>
+      </div>
+      <a href="{{ route('shopslogin')}}">サロン・スタッフはこちら</a>
 @endsection

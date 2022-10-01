@@ -10,14 +10,18 @@ use App\Users;
 use App\Shop;
 use App\Staff;
 use App\Hairstyle;
+use App\haircategory;
+use App\sexual;
+use App\area;
+use App\appointment;
 
 class staffController extends Controller
 {
-    // public function index() {
-    //     return view('staffall.staff');
-    // }
+    public function staffs() {
+        return view('staffall.staff');
+    }
 
-    public function index() {
+    public function staffsinfo() {
         return view('staffall.staff_info');
     }
 }

@@ -10,13 +10,18 @@ use App\Users;
 use App\Shop;
 use App\Staff;
 use App\Hairstyle;
+use App\haircategory;
+use App\sexual;
+use App\area;
+use App\appointment;
 
 class shopController extends Controller
 {
-    // public function index() {
-    //     return view('shopall.shop');
-    // }
-    public function index() {
+    public function shops() {
+        return view('shopall.shop');
+    }
+    
+    public function shopsinfo() {
         return view('shopall.shop_info');
     }
 }

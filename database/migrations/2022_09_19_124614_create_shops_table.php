@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateHairstyleTable extends Migration
+class CreateShopsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,13 @@ class CreateHairstyleTable extends Migration
      */
     public function up()
     {
-        Schema::create('_hairstyle', function (Blueprint $table) {
+        Schema::create('shops', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->timestamps();
+            $table->string('shop_name');
+            $table->string('area_id');
+            $table->string('address');
+            $table->string('telphone')->nullable();
+            $table->string('email');
         });
     }
 
@@ -26,6 +30,6 @@ class CreateHairstyleTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_hairstyle');
+        Schema::dropIfExists('shops');
     }
 }

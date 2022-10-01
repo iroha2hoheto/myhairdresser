@@ -5,6 +5,7 @@
             <div class="row justify-content-around">
                 <div class="col-md-4">
                     <div class="random">
+                    <a href="{{ route('userslogin') }}">ログイン</a>
                         <div class="card">
                             <a href="/">本日の<br><b>ヘアガチャ</b></a>
                         </div>

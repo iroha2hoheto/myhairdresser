@@ -25,7 +25,6 @@
                 <div class="container">
                     <a class="titlebar" href="{{ url('/') }}"> my hair dresser </a>
                 </div>
-                <a href="/">ログイン</a>
             </nav>
             @yield('content')
         </div>

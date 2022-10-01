@@ -5,10 +5,10 @@
             <div class="row justify-content-around">
                 <div class="col-md-4">
                     <div class="random">
+                    <a href="{{ route('appointment') }}">予約する</a>
                         <div class="card">
                             <a href="/">本日の<br><b>ヘアガチャ</b></a>
                         </div>
-                       
                     </div>
                 </div>
             </div>
