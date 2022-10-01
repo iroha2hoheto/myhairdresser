@@ -1,6 +1,11 @@
 <?php
 
-
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\displayController;
+use App\Http\Controllers\appointmentController;
+use App\Http\Controllers\staffController;
+use App\Http\Controllers\shopController;
+use App\Http\Controllers\usersController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +17,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// //home
+// Route::get('/',[displayController::class,'index']);
+
+// //login
+// Route::get('/',[displayController::class,'index']);
+
+// //users
+// Route::get('/',[usersController::class,'index']);
+Route::get('/',[usersController::class,'index']);
+
+// // //shop
+// Route::get('/',[shopController::class,'index']);
+// Route::get('/',[shopController::class,'index']);
+
+// //staff
+// Route::get('/',[staffController::class,'index']);
+// Route::get('/',[staffController::class,'index']);
+

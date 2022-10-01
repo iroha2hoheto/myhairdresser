@@ -1,0 +1,205 @@
+
+.navbar a{
+  color:rgb(101, 101, 101);
+  text-decoration: none;
+}
+
+.py-1 {
+  margin:0%;
+  display: flex;
+}
+.container {
+    display: inline-block;
+    padding-top: 0.32rem;
+    padding-bottom: 0.32rem;
+    margin: 1rem;
+    font-size: 30px;
+}
+
+.side-menu {
+ text-align: center;
+ padding:50px;
+}
+
+.card {
+  background-color: bisque;
+  text-align: center;
+  padding:20px 10px;
+}
+
+.card a{
+  color: rgb(101, 101, 101);
+  text-decoration: none;
+}
+
+.form-control {
+  padding-right: 30%;
+  border-radius: 10px;
+}
+
+.search {
+  margin-top:2%;
+  display: flex;
+}
+
+.search-btm {
+  background-color: bisque;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.search-link {
+  font-size: smaller;
+}
+
+.search-link a {
+  color: rgb(101, 101, 101);
+  text-decoration: none;
+}
+
+.hair-box {
+  display: flex;
+  background-color: bisque;
+  width:66%;
+}
+
+.py-2 {
+  display: flex;
+  text-align: center;
+  padding-left:4%;
+}
+.shop-left {
+  padding-right:100px;
+}
+
+.message {
+  width:800px;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+
+.money {
+  width:800px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.count {
+  width:400px;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+
+.calender {
+  width:400px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.info-comment {
+  padding-right: 20%;
+  border-radius: 10px;
+}
+
+.py-3 {
+  display: flex;
+  text-align: center;
+}
+
+.info-calendar {
+font-size: 300%;
+margin-left:3%;
+}
+
+.info-calendar th {
+  padding-left:40px;
+  color:rgb(101, 101, 101);
+  }
+
+.info-right {
+  width:400px;
+  padding-left:15%;
+}
+
+.select-time {
+  background-color: bisque;
+  margin:3px;
+  color:rgb(101, 101, 101);
+}
+
+.select-staff {
+  background-color: bisque;
+  margin:3px;
+  color:rgb(101, 101, 101);
+}
+
+.info-comment {
+  display: flex;
+  width:300px;
+}
+
+.info-memo {
+  background-color: bisque;
+  margin:3px;
+  color:rgb(101, 101, 101);
+}
+
+.decide {
+  background-color: bisque;
+  color:rgb(101, 101, 101);
+}
+
+.box-container {
+  display: inline-block;
+  padding-bottom: 0.32rem;
+  margin: 1rem;
+  font-size: 30px;
+}
+
+.box {
+  background-color: bisque;
+  text-align: center;
+  width:400px;
+}
+
+.box-info {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 30px;
+  padding-left:35%;
+}
+
+.py-4 {
+  margin:0%;
+  display: flex;
+}
+
+.apo-calendar {
+  font-size: 200%;
+  margin-left:3%;
+  width:60%;
+  background-color: bisque;
+  text-align: center;
+}
+  
+.apo-calendar th {
+  color:rgb(101, 101, 101);
+}
+
+.apo {
+  font-size:200%;
+  color:rgb(101, 101, 101);
+  margin-left:15%;
+  background-color: bisque;
+  width:250px;
+  text-align: center;
+}
+
+.btn {
+  color:rgb(101, 101, 101);
+  background-color: bisque;
+  border-radius: 10px;
+  padding:10px;
+}
